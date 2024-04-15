@@ -1,0 +1,33 @@
+.submain{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.productBox{
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 24.5%;
+    margin-left: 0.391%;
+    margin-bottom: 8px;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+.description{
+    height: 60px;
+    overflow: hidden;
+    border: 1px solid gray;
+
+}
+.description .left{
+    margin-left: 215px;
+    font-weight: bold;
+}
+.description h4{
+    cursor: pointer;
+}
+.description:hover{
+    height: auto;
+}
+
