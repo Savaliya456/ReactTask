@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header{
+  width: 100%;
+  height: 120px;
+  border: 1px solid black;
+  display: flex;
+}
+.button1{
+  margin-top: 27px;
+  margin-left: 10px;
+}
+.search{
+  font-size: 28px;
+  margin-left: 2%;
+  margin-top: 37px;
+}
+.louis{
+  margin-top: 40px;
+  margin-left: 22%;
+}
+.call{
+  margin-top: 40px;
+}
+.heart{
+  margin-top: 37px;
+  margin-left: 22%;
+  font-size: 25px;
+  cursor: pointer;
+}
+.person{
+  margin-top: 34px;
+  margin-left: 25px;
+  cursor: pointer;
+}
