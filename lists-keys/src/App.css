@@ -1,0 +1,39 @@
+#bg-img{
+    background-image: url("https://www.titan.co.in/on/demandware.static/-/Library-Sites-TitanSharedLibrary/default/dwac5d2480/images/login/login-banner-bg-gold.jpg");
+  }
+  
+  .logo{
+    width: 150px;
+    margin-left: 180px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  #login-border{
+    border-left: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  #log{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    border-top: 1px solid lightgrey;
+  }
+  
+  #country img{
+    width: 25px;
+  }
+  
+  .paragraph{
+    font-size: 12px;
+  }
+  
+  #text-deco a{
+    text-decoration: none;
+    color: black;
+  }
+  
