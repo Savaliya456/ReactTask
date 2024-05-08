@@ -19,9 +19,11 @@ return (
 
         <button onClick={addTask}>ADD TASK</button>
 
+        <h1>YOUR TASK</h1>
+
     {
         todos.map((el,i)=>(
-            <h1 key={i}>{el.text}</h1>
+            <h key={i}>{el.text}</h>
         ))
     }
         </div>
