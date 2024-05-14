@@ -28,3 +28,5 @@ navigate('/')
         </>
     )
 }
+
+export default Addpost
