@@ -1,0 +1,58 @@
+/* Showmovie.css */
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.movie-card {
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+.icon-container .text-success {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: green;
+}
+
+.icon-container .text-danger {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: red;
+}
+.movie-card h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.movie-card p {
+    margin: 5px 0;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
