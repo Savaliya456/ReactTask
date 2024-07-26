@@ -1,5 +1,3 @@
-// SignUp.js
-
 import React, { useState } from 'react';
 import { createUserWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from './Config';
