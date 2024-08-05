@@ -5,7 +5,6 @@ import CreatePlaylist from "./components/CreatePlaylist";
 import { initializePlaylist } from "./initialize";
 import Navbar from "./components/Navbar";
 import { MusicContext } from "./Context";
-import { LuMusic4 } from "react-icons/lu";
 
 function App() {
   const [keyword, setKeyword] = useState("");
@@ -145,15 +144,16 @@ function App() {
         <div className="row">
           <div className="col-12 py-5 text-center">
             <h1>
-              <LuMusic4/> &nbsp;              Sound Sailor
-            </h1> <br></br> <br></br> <br></br>
-            {/* <h3 className="py-5">Discover music in 30 seconds</h3> */}
+              <i className="bi bi-music-note-list mx-3"></i>
+              Rhythm Rider
+            </h1>
+            <h3 className="py-5">Discover music in 30 seconds</h3>
             <div>
               <a
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-dark"
-                href="https://github.com/Savaliya456/ReactTask"
+                href="https://github.com/itsrj08/Rhythm-Rider"
               >
                 <i className="bi bi-github mx-2"></i>Github
               </a>

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { LuMusic4 } from "react-icons/lu";
+
 import { Link } from "react-router-dom";
 import { MusicContext } from "../Context";
 import PinnedMusic from "./PinnedMusic";
@@ -12,11 +12,10 @@ const Navbar = ({ keyword, handleKeyPress, setKeyword, fetchMusicData }) => {
   const setResultOffset = musicContext.setResultOffset;
   return (
     <>
-      <nav className="navbar navbar-dark navbar-expand-lg sticky-top" style={{backgroundColor:"grey"}}>
+      <nav className="navbar navbar-dark navbar-expand-lg bg-dark sticky-top">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            {/* <i className="bi bi-music-note-list mx-3"></i>  */}
-            <LuMusic4/>   &nbsp; S-music
+            <i className="bi bi-music-note-list mx-3"></i> r-music
           </Link>
           <div>
             <button
@@ -55,7 +54,7 @@ const Navbar = ({ keyword, handleKeyPress, setKeyword, fetchMusicData }) => {
                 setResultOffset(0);
                 fetchMusicData();
               }}
-              className="btn btn-outline-dark"
+              className="btn btn-outline-success"
             >
               Search
             </button>

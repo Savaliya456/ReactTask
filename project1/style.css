@@ -1,0 +1,572 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(rgba(2, 2, 2, 0.629),rgba(2, 2, 2, 0.583)),url(images/hero_1\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.navbar{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+}
+.main h1{
+    font-size: 50px;
+}
+.main button{
+  width: 30%;
+  padding: 9px;
+  border-radius: 20px;
+  background-color: #007bffe0;
+  color: aliceblue;
+  border: none;
+}
+.main1{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+.mi1{
+    width: 65%;
+    height: 450px;
+    /* border: 1px solid black; */
+}
+.child1{
+    width: 45%;
+    height: 450px;
+    /* border: 1px solid black; */
+}
+.child1 img{
+    width: 100%;
+    height: 100%;
+}
+.child1a{
+    width: 45%;
+    height: 450px;
+    /* border: 1px solid black; */
+    padding-top: 30px;
+    padding-left: 60px;
+}
+.child1a p{
+    font-size: 17px;
+}
+.main1 h1{
+    font-weight: bold;
+    color:  #007bffe0;
+}
+.child1a button{
+    width: 30%;
+    padding: 9px;
+    border-radius: 20px;
+    background-color: #007bffe0;
+    color: aliceblue;
+    border: none;
+}
+.main2{
+    width: 100%;
+    height: 1100px;
+    /* border: 1px solid black; */
+}
+.main2 h1{
+    font-weight: bold;
+    color:  #007bffe0;
+}
+.main2 p{
+    font-size: 20px;
+}
+.mi2{
+    width: 65%;
+    height: 750px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.child2{
+     width: 22%;
+     height: 350px;
+     /* border: 1px solid black; */
+}
+.child2 img{
+    width: 100%;
+    height: 75%;
+}
+.main3{
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid black; */
+}
+.main3 h1{
+    font-weight: bold;
+    color:  #007bffe0;
+}
+.mi3{
+    width: 60%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.child3{
+    width: 30%;
+    height: 260px;
+    padding-left: 30px;
+    /* border: 1px solid black; */
+}
+.child3 i{
+    font-size: 40px;
+    color:  #007bff;
+
+}
+.child3 a{
+    text-decoration: none;
+}
+.main4{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+    background-color: #F8F9FA;
+
+}
+.main4 h1{
+    color: #007bff;
+}
+.mi4{
+    width: 65%;
+    height: 600px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.child4{
+    width: 30%;
+    height: 600px;
+    /* border: 1px solid black; */
+    background-color: rgb(255, 255, 255);
+}
+.child4 button{
+    width: 35%;
+    padding: 8px;
+    border-radius: 20px;
+}
+.child4 h2{
+    font-size: 50px;
+    color: #007bff;
+}
+#b1{
+    background-color: #6C757D;
+    color: white;
+    border: none;
+} 
+#b2{
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+#b3{
+    background-color: #6C757D;
+    color: white;
+    border: none;
+}
+.main5{
+    width: 100%;
+    height: 650px;
+    /* border: 1px solid black; */
+}
+.mi5{
+    width: 65%;
+    height: 480px;
+    /* border: 1px solid black; */
+}
+.child5{
+    width: 48%;
+    height: 450px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.child5 img{
+    width: 100%;
+    height: 100%;
+}
+.ch1{
+    width: 45%;
+    height: 300px;
+    /* border: 1px solid black; */
+   padding-left: 30px;
+   padding-top: 30px;
+}
+.ch1 i{
+    font-size: 40px;
+    color: #007bff;
+}
+.main6{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    color: white;
+}
+.mi6{
+    width: 65%;
+    height: 300px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around ;
+}
+.child6{
+    width: 23%;
+    height: 300px;
+    /* border: 1px solid black; */
+    padding-top: 30px;
+   
+}
+
+
+
+@media(max-width:992px){
+    .main{
+        width: auto;
+        height: 700px;
+        /* border: 1px solid black; */
+    }
+    .main h1{
+        font-size: 45px;
+    }
+    .main button{
+        width: 35%;
+        
+    }
+    .main1{
+        width: auto;
+        height: auto;
+
+    }
+
+    .mi1{
+        width: auto;
+        height: auto;
+        /* flex-direction: column; */
+    }
+    .child1{
+        width: 45%;
+        height: auto;
+        padding: 20px;
+    }
+    .child1a{
+        width: auto;
+        height: auto;
+        padding: 40px;
+    }
+    .main2 h1{
+        padding-top: 30px;
+
+    }
+    .main2 p{
+        font-size: 16px;
+    }
+    .main2{
+        width: auto;
+        height: auto;
+    }
+    .mi2{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .child2{
+        width: 22%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .main3{
+        width: auto;
+        height: auto;
+    }
+    .main3 h1{
+        padding-top: 50px;
+    }
+    .mi3{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap
+    }
+    .child3{
+        width: 31%;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .main4{
+        width: auto;
+        height: auto;
+     }
+     .main4 h1{
+        padding-top: 30px;
+     }
+     .mi4{
+        width: 100%;
+        height: auto;
+        
+     }
+     .child4{
+        width: 30%;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+     }
+     .child4 button{
+        width: auto;
+     }
+     .main5{
+        width: auto;
+        height: auto;
+     }
+     .mi5{
+
+        width: auto;
+        height: auto;
+      
+     }
+     .ch1{
+        width: auto;
+        height: auto;
+     }
+     .child5{
+        width: 45%;
+        height: auto;
+        margin-bottom: 30px;
+     }
+     .child5 img{
+        padding: 40px;
+     }
+}
+@media(max-width:768px){
+    .main{
+        width: auto;
+        height: 600px;
+        /* border: 1px solid black; */
+    }
+    .main h1{
+        font-size: 40px;
+    }
+    .main button{
+        width: 35%;
+        
+    }
+    .main1{
+        width: auto;
+        height: auto;
+
+    }
+
+    .mi1{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .child1{
+        width: auto;
+        height: auto;
+        padding: 60px;
+    }
+    .child1a{
+        width: auto;
+        height: auto;
+        padding: 40px;
+    }
+    .main2 h1{
+        padding-top: 30px;
+
+    }
+    .main2 p{
+        font-size: 16px;
+    }
+    .main2{
+        width: auto;
+        height: auto;
+    }
+    .mi2{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .child2{
+        width: 30%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .main3{
+        width: auto;
+        height: auto;
+    }
+    .main3 h1{
+        padding-top: 50px;
+    }
+    .mi3{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap
+    }
+    .child3{
+        width: 31%;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    .main4{
+        width: auto;
+        height: auto;
+     }
+     .main4 h1{
+        padding-top: 30px;
+     }
+     .mi4{
+        width: 50%;
+        height: auto;
+        flex-direction: column;
+     }
+     .child4{
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+     }
+     .main5{
+        width: auto;
+        height: auto;
+     }
+     .mi5{
+
+        width: auto;
+        height: auto;
+        flex-direction: column;
+     }
+     .child5{
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+     }
+     .child5 img{
+        padding: 40px;
+     }
+}
+@media(max-width:576px){
+    .main{
+        width: auto;
+        height: 500px;
+        /* border: 1px solid black; */
+    }
+    .main h1{
+        font-size: 35px;
+    }
+    .main button{
+        width: auto;
+        
+    }
+    .main1{
+        width: auto;
+        height: auto;
+
+    }
+    .mi1{
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .child1{
+        width: auto;
+        height: auto;
+        padding: 30px;
+    }
+    .child1a{
+        width: auto;
+        height: auto;
+        padding: 20px;
+    }
+    .main2 h1{
+        padding-top: 30px;
+
+    }
+    .main2 p{
+        font-size: 16px;
+    }
+    .main2{
+        width: auto;
+        height: auto;
+    }
+    .mi2{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .child2{
+        width: 45%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .main3{
+        width: auto;
+        height: auto;
+    }
+    .main3 h1{
+        padding-top: 30px;
+    }
+    .mi3{
+        width: auto;
+        height: auto;
+        flex-wrap: wrap
+    }
+    .child3{
+        width: 45%;
+        height: auto;
+        padding: 10px;
+    }
+     .main4{
+        width: auto;
+        height: auto;
+     }
+     .main4 h1{
+        padding-top: 30px;
+     }
+     .mi4{
+        width: 60%;
+        height: auto;
+        flex-direction: column;
+     }
+     .child4{
+        width: auto;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 30px;
+     }
+     .main5{
+        width: auto;
+        height: auto;
+     }
+     .mi5{
+
+        width: auto;
+        height: auto;
+        flex-direction: column;
+     }
+     .child5{
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+     }
+}
